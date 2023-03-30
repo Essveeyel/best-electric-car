@@ -2,16 +2,19 @@ import React from 'react'
 import Carousel from '../components/Carousel/Carousel'
 import CarsTemp from '../components/CarsTemp'
 import DisplayCard from '../components/DisplayCard'
+import {Adsense} from '@ctrl/react-adsense';
 
 function Home() {
   return (
     <>
-   <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content text-center">
+      <div className="hero min-h-screen"
+        // style={{ backgroundImage: `url('https://tesla-cdn.thron.com/delivery/public/image/tesla/197be9d8-7cf6-49b8-a711-e56237fa874a/bvlatuR/std/1200x628/rhd-model-3-social')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+     
+        <div className="hero-content text-center">
     <div className="">
       <h1 className="text-5xl font-bold">WHY TESLA MODEL 3 is the best car on the market</h1>
           <div>
-          
         <h2>Tesla Model 3</h2>    
 <strong>The Tesla Model 3</strong> has quickly become one of the most popular electric cars on the market, and for good reason. It's an excellent car that combines style, performance, and eco-friendliness into one package. Here are some of the reasons why the Tesla Model 3 is considered by many to be the best electric car on the market.
 First and foremost, the Model 3's performance is unmatched. It can go from 0 to 60 mph in as little as 3.2 seconds, making it one of the fastest electric cars available. The car handles exceptionally well, with a low center of gravity and precise steering, making it a joy to drive on any road.
@@ -27,6 +30,7 @@ In conclusion, the Tesla Model 3 is the best electric car on the market due to i
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
+       
       </div>
       
       <Carousel>
@@ -36,6 +40,14 @@ In conclusion, the Tesla Model 3 is the best electric car on the market due to i
           </div>
         ))}
       </Carousel>
+
+      {/* <div>
+        <p>Ad here:</p>
+      <Adsense
+  client="ca-pub-7640562161899788"
+  slot="7259870550"
+/>
+      </div> */}
     </>
   )
 }

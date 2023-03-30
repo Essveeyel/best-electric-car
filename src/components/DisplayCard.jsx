@@ -5,7 +5,7 @@ function DisplayCard(props) {
   return (
     
     <div className="card w-96 glass text-white">
-      <figure><img src={car.image} alt="car!"/></figure>
+      <figure><img src={car.image} className='min-h-64 h-64 object-cover' alt="car!"/></figure>
   <div className="card-body">
         <h2 className="card-title">{car.model}</h2>
         <h2 className="card-title">{car.make}</h2>
