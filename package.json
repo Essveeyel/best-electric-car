@@ -10,10 +10,12 @@
     "deploy": "npm run build && firebase login:use info@thegeekfloor.com && firebase deploy"
   },
   "dependencies": {
+    "@ctrl/react-adsense": "^1.6.1",
     "daisyui": "^2.51.5",
     "firebase": "^9.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
