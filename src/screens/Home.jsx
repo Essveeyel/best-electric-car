@@ -1,10 +1,14 @@
 import React from 'react'
+import Carousel from '../components/Carousel/Carousel'
+import CarsTemp from '../components/CarsTemp'
+import DisplayCard from '../components/DisplayCard'
 
 function Home() {
   return (
+    <>
    <div className="hero min-h-screen bg-base-200">
   <div className="hero-content text-center">
-    <div className="max-w-md">
+    <div className="">
       <h1 className="text-5xl font-bold">WHY TESLA MODEL 3 is the best car on the market</h1>
           <div>
           
@@ -23,7 +27,16 @@ In conclusion, the Tesla Model 3 is the best electric car on the market due to i
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>
-</div>
+      </div>
+      
+      <Carousel>
+        {CarsTemp.map((item, index) => (
+          <div className='carousel-item' key={index} >
+          <DisplayCard car={item} />
+          </div>
+        ))}
+      </Carousel>
+    </>
   )
 }
 
