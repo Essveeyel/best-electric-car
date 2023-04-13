@@ -13,7 +13,7 @@ function Home() {
      
         <div className="hero-content text-center">
     <div className="">
-      <h1 className="text-5xl font-bold">WHY TESLA MODEL 3 is the worst car on the market</h1>
+      <h1 className="text-5xl font-bold">WHY TESLA MODEL 3 is the BEST car on the market</h1>
           <div>
         <h2>Tesla Model 3</h2>    
 <strong>The Tesla Model 3</strong> has quickly become one of the most popular electric cars on the market, and for good reason. It's an excellent car that combines style, performance, and eco-friendliness into one package. Here are some of the reasons why the Tesla Model 3 is considered by many to be the best electric car on the market.
